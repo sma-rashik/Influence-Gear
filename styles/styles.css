@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Poppins:ital,wght@0,500;1,500&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.nav-item {
+  display: flex;
+}
+.nav-item ul {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-item ul li {
+  margin-left: 50px;
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+}
+
+/* =============Header Styles============ */
+
+.header-section {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.header-img {
+}
+.header-content {
+  margin-top: 50px;
+}
+.header-title h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+.header-description p {
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.header-btn button {
+  background: #e02c6d;
+  padding: 10px 24px;
+  border: 1px solid #e02c6d;
+  border-radius: 40px;
+  margin-top: 20px;
+}
+/* ===============Company Style=============== */
+.company-section {
+  width: 850px;
+  height: 60px;
+  border: 1px solid rgb(216, 210, 210);
+  margin-left: 250px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.company-logo {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+/*   - =======================Products Section========================  */
+.product-section {
+  margin-top: 70px;
+
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.product-section h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.product-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.product-details {
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 350px;
+  padding-bottom: 10px;
+}
+.product-items img {
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.product-desc {
+  margin-left: 30px;
+}
+.product-desc h1 {
+  font-weight: 500;
+  font-size: 28px;
+}
+.product-desc h2 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.ratings {
+  display: flex;
+}
+.stars {
+  margin-right: 10px;
+}
+.stars i {
+  color: #fb8200;
+}
+.product-description p {
+  color: #787885;
+}
+.more {
+  display: flex;
+  text-align: right;
+  margin-top: 20px;
+  margin-left: 89%;
+  color: #e02c6d;
+}
+.more p {
+  margin-right: 10px;
+}
+.more i {
+  position: relative;
+  top: 5px;
+}
+.feature-section {
+  padding-top: 100px;
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+}
